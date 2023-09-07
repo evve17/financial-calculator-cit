@@ -1,0 +1,23 @@
+{
+  "name": "financial-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{html,js}\" --write",
+    "dev": "parcel src/homepage.html",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.14.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
+  },
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
